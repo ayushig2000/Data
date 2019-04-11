@@ -9,7 +9,7 @@ s = smtplib.SMTP('smtp.gmail.com', 587)
 s.starttls() 
   
 # Authentication 
-s.login("ayushig4072@gmail.com", "Primesister") 
+s.login("ayushig4072@gmail.com", "Password") 
   
 # message to be sent 
 message = "This is Ayushi"
